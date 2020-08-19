@@ -36,7 +36,7 @@ CREATE TABLE [Especialidade] (
 );
   
 # Instalação de lib's utilizadas
-Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes do NuGet > Console do Gerenciador de Pacotes e execute os comandos abaixo:
+Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes do NuGet > Gerenciar Pacotes do NuGet para Soluções... e execute os comandos abaixo:
 - Microsoft.EntityFrameworkCore
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
