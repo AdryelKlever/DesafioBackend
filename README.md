@@ -37,10 +37,14 @@ CREATE TABLE [Especialidade] (
   
 # Instalação de lib's utilizadas
 Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes do NuGet > Console do Gerenciador de Pacotes e execute os comandos abaixo:
-- Install-Package Microsoft.EntityFrameworkCore.SqlServer
-- Install-Package Microsoft.EntityFrameworkCore.Tools
-- Install-Package Microsoft.AspNetCore.Authentication
-- Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.Extensions.Configuration.Json
+- Microsoft.NETCore.App
+- Microsoft.Extensions.Configuration.FileExtensions
+- Microsoft.AspNetCore.Authentication
+- Microsoft.AspNetCore.Authentication.JwtBearer
 
 Artigo sobre ASP.NET Core - Autenticação e Autorização por balta.io:
 https://balta.io/blog/aspnet-core-autenticacao-autorizacao
