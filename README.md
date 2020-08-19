@@ -40,6 +40,8 @@ Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes d
 - Microsoft.EntityFrameworkCore
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
+- Microsoft.Extensions.Configuration.FileExtensions
+- Microsoft.Extensions.Configuration.Json
 - Microsoft.AspNetCore.Authentication
 - Microsoft.AspNetCore.Authentication.JwtBearer
 
