@@ -1,5 +1,6 @@
 # Desafio Backend
-Construir uma aplicação SAAS. A tarefa é construir uma aplicação SAAS. A aplicação é um simples repositório para gerenciar médicos com seus respectivos nomes, CPF's, crm's e especialidades. A aplicação deve ser construída em .NET Core 3.1, utilizando EF Core com banco de dados PostgreSQL ou SQL SERVER, podendo utilizar qualquer lib disponível no NuGET.
+Construir uma aplicação SAAS. A tarefa é construir uma aplicação SAAS. A aplicação é um simples repositório para gerenciar médicos com seus respectivos nomes, CPF's, crm's e especialidades. A aplicação deve ser construída em .NET Core 3.1, utilizando EF Core com banco de dados PostgreSQL ou SQL SERVER, podendo utilizar qualquer lib disponível no NuGET. A API deverá ser documentada utilizando o formato OpenAPI (antigo Swagger).
+<h2>O que será avaliado</h2>
 
 # Guia Prático de Git sem complicação por Roger Dudler
 Comandos para trabalhar com git:
