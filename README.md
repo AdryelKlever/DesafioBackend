@@ -1,5 +1,5 @@
 # Desafio Backend
-Construir uma aplicação SAAS. Sua tarefa é construir uma aplicação SAAS. A aplicação é um simples repositório para gerenciar médicos com seus respectivos nomes, CPF's, crm's e especialidades.
+Construir uma aplicação SAAS. A tarefa é construir uma aplicação SAAS. A aplicação é um simples repositório para gerenciar médicos com seus respectivos nomes, CPF's, crm's e especialidades.
 
 # Guia Prático de Git sem complicação por Roger Dudler
 Comandos para trabalhar com git:
