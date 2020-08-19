@@ -30,3 +30,5 @@ Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes d
 
 Artigo sobre ASP.NET Core - Autenticação e Autorização por balta.io:
 https://balta.io/blog/aspnet-core-autenticacao-autorizacao
+
+Projeto exemplo de utilização de Jwt feito por Adryel Klever: https://drive.google.com/file/d/1KXl7QC729iPYz9kOufCBct2g9N1vpxsL/view?usp=sharing
