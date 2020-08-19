@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bME7C1TwsMtlivjjqQE3x1LaLlVAI4KBMK89sUHKNtF3SNHiJtN2JX21o+2RAprC0namoZpENWAG7KB+Ec7UAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adrye\\source\\repos\\DesafioBackEnd\\DesafioBackEnd\\DesafioBackEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adrye\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
