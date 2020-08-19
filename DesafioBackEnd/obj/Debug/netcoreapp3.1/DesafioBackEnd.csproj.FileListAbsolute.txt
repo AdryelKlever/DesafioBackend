@@ -1,0 +1,9 @@
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\obj\Debug\netcoreapp3.1\DesafioBackEnd.csprojAssemblyReference.cache
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\obj\Debug\netcoreapp3.1\DesafioBackEnd.AssemblyInfoInputs.cache
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\obj\Debug\netcoreapp3.1\DesafioBackEnd.AssemblyInfo.cs
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\obj\Debug\netcoreapp3.1\DesafioBackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\DesafioBackEnd.StaticWebAssets.Manifest.cache
+C:\Users\adrye\source\repos\DesafioBackEnd\DesafioBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\DesafioBackEnd.StaticWebAssets.xml
