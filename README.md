@@ -9,6 +9,12 @@ Construir uma aplicação SAAS. A tarefa é construir uma aplicação SAAS. A ap
 - Capacidade de documentação da sua parte da aplicação.
 - Organização do repositório
 
+<h2>O mínimo necessário</h2>
+
+- Uma aplicação contendo uma API real simples, sem autenticação, que atenda os requisitos descritos abaixo, fazendo requisições à um banco de dados para persistência;
+- README.md contendo informações básicas do projeto e como executá-lo;
+- OpenAPI da aplicação
+
 # Guia Prático de Git sem complicação por Roger Dudler
 Comandos para trabalhar com git:
 https://rogerdudler.github.io/git-guide/index.pt_BR.html
