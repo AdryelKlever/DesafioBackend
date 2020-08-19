@@ -3,3 +3,17 @@ Construir uma aplicação SAAS. Sua tarefa é construir uma aplicação SAAS. A 
 
 # Diagrama Lógico Desafio Backend
 <img src="/imagens/DiagramaLogicoDesafioBackend.png" alt="My cool logo"/>
+
+# Diagrama Físico Desafio Backend
+CREATE TABLE [Medico] (
+  [IdMedico] <type>,
+  [NomeMedico] <type>,
+  [CPF] <type>,
+  [CMR] <type>
+);
+
+CREATE TABLE [Especialidade] (
+  [IdEspecialidade] <type>,
+  [NomeEspecialidade] <type>
+);
+
