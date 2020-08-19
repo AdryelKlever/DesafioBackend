@@ -4,9 +4,9 @@ Construir uma aplicação SAAS. A tarefa é construir uma aplicação SAAS. A ap
 <h2>O que será avaliado</h2>
 
 - Código bem escrito e limpo;
-- Quais libs foram usadas, como e porquê, além do seu conhecimento das mesmas;
-- Seu conhecimento em banco de dados, requisições HTTP, APIs REST, etc;
-- Sua capacidade de documentação da sua parte da aplicação.
+- Quais libs foram usadas, como e porquê, além do conhecimento das mesmas;
+- Conhecimento em banco de dados, requisições HTTP, APIs REST, etc;
+- Capacidade de documentação da sua parte da aplicação.
 - Organização do repositório
 
 # Guia Prático de Git sem complicação por Roger Dudler
