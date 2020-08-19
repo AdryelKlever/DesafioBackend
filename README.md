@@ -27,3 +27,6 @@ Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes d
 - Install-Package Microsoft.EntityFrameworkCore.Tools
 - Install-Package Microsoft.AspNetCore.Authentication
 - Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
+
+Artigo sobre ASP.NET Core - Autenticação e Autorização por balta.io
+https://balta.io/blog/aspnet-core-autenticacao-autorizacao
