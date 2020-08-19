@@ -2,7 +2,7 @@
 Construir uma aplicação SAAS. Sua tarefa é construir uma aplicação SAAS. A aplicação é um simples repositório para gerenciar médicos com seus respectivos nomes, CPF's, crm's e especialidades.
 
 # Diagrama Lógico Desafio Backend
-<img src="/imagens/DiagramaLogicoDesafioBackend.png" alt="My cool logo"/>
+<img src="/imagens/DiagramaLogicoDesafioBackend.png"/>
 
 # Diagrama Físico Desafio Backend
 CREATE TABLE [Medico] (
