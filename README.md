@@ -16,4 +16,7 @@ CREATE TABLE [Especialidade] (
   [IdEspecialidade] <type>,
   [NomeEspecialidade] <type>
 );
-
+  
+# Instalação de lib's utilizadas
+- Install-Package Microsoft.EntityFrameworkCore.SqlServer
+- Install-Package Microsoft.EntityFrameworkCore.Tools
