@@ -44,6 +44,7 @@ Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes d
 - Microsoft.Extensions.Configuration.Json
 - Microsoft.AspNetCore.Authentication
 - Microsoft.AspNetCore.Authentication.JwtBearer
+- Swashbuckle.AspNetCore
 
 Artigo sobre ASP.NET Core - Autenticação e Autorização por balta.io:
 https://balta.io/blog/aspnet-core-autenticacao-autorizacao
