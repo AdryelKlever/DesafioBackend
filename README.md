@@ -2,7 +2,7 @@
 Construir uma aplicação SAAS. Sua tarefa é construir uma aplicação SAAS. A aplicação é um simples repositório para gerenciar médicos com seus respectivos nomes, CPF's, crm's e especialidades.
 
 # Guia Prático de Git sem complicação por Roger Dudler
-Comandos para trablhar com git:
+Comandos para trabalhar com git:
 https://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 # Diagrama Lógico Desafio Backend
