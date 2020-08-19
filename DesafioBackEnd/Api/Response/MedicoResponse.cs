@@ -9,7 +9,7 @@ namespace DesafioBackEnd.Api.Response
     {
         public int IdMedico { get; set; }
         public string NomeMedico { get; set; }
-        public int CPF { get; set; }
+        public string CPF { get; set; }
         public string CRM { get; set; }
         public string Role { get; set; }
     }
