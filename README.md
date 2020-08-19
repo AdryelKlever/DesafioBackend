@@ -2,4 +2,4 @@
 Construir uma aplicação SAAS
 
 # Diagrama Lógico Desafio Backend
-![Screenshot](screenshot.png)
+![Screenshot](DesafioBackend/imagens/Diagrama Desafio Backend.png)
