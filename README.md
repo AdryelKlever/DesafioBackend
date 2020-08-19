@@ -25,3 +25,5 @@ CREATE TABLE [Especialidade] (
 Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes do NuGet > Console do Gerenciador de Pacotes e execute os comandos abaixo:
 - Install-Package Microsoft.EntityFrameworkCore.SqlServer
 - Install-Package Microsoft.EntityFrameworkCore.Tools
+- Install-Package Microsoft.AspNetCore.Authentication
+- Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
