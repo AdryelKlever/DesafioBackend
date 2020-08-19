@@ -1,0 +1,12 @@
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\bin\Debug\netcoreapp3.1\DesafioBackEnd.Data.deps.json
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\bin\Debug\netcoreapp3.1\DesafioBackEnd.Data.dll
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\obj\Debug\netcoreapp3.1\DesafioBackEnd.Data.csprojAssemblyReference.cache
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\obj\Debug\netcoreapp3.1\DesafioBackEnd.Data.AssemblyInfoInputs.cache
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\obj\Debug\netcoreapp3.1\DesafioBackEnd.Data.AssemblyInfo.cs
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\bin\Debug\netcoreapp3.1\DesafioBackEnd.Data.runtimeconfig.json
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\bin\Debug\netcoreapp3.1\DesafioBackEnd.Data.runtimeconfig.dev.json
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\obj\Debug\netcoreapp3.1\DesafioBackEnd.Data.genruntimeconfig.cache
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\bin\Debug\netcoreapp3.1\DesafioBackEnd.Data.pdb
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\obj\Debug\netcoreapp3.1\DesafioBackEnd.Data.dll
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\obj\Debug\netcoreapp3.1\DesafioBackEnd.Data.pdb
+C:\Users\adrye\source\repos\DesafioBackend\DesafioBackEnd.Data\obj\Debug\netcoreapp3.1\DesafioBackEnd.Data.csproj.CoreCompileInputs.cache
