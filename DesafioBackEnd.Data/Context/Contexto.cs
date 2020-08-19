@@ -1,5 +1,4 @@
-﻿using DesafioBackEnd.Data.Models;
-using DesafioBackEnd.Models;
+﻿using DesafioBackEnd.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,7 +16,6 @@ namespace DesafioBackEnd.Data.Context
 
         public DbSet<Medico> Medico { get; set; }
         public DbSet<Especialidade> Especialidade { get; set; }
-        public DbSet<EspecialidadeMedido> EspecialidadeMedido { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -37,6 +35,9 @@ namespace DesafioBackEnd.Data.Context
                 e.HasKey(m => m.IdMedico).HasName("IdMedico");
                 e.Property(m => m.IdMedico).HasColumnName("IdMedico")
                     .ValueGeneratedOnAdd();
+
+                e.Property(m => m.IdEspecialidade).HasColumnName("IdEspecialidade")
+                    .IsRequired();
 
                 e.Property(m => m.NomeMedico).HasColumnName("NomeMedico")
                     .IsRequired()
@@ -62,30 +63,11 @@ namespace DesafioBackEnd.Data.Context
                     .IsRequired()
                     .HasMaxLength(150);
 
-            });
-
-            modelBuilder.Entity<EspecialidadeMedido>(e =>
-            {
-                e.ToTable("EspecialidadeMedico");
-                e.HasKey(k => new { k.IdMedico, k.IdEspecialidade })
-                    .HasName("PFK_EspecialidadeMedico");
-
-                e.Property(m => m.IdMedico).HasColumnName("IdMedico")
-                    .IsRequired();
-
-                e.Property(es => es.IdEspecialidade).HasColumnName("IdEspecialidade")
-                    .IsRequired();
-
-                e.HasOne(m => m.Medico)
-                    .WithMany(em => em.EspecialidadeMedicos)
-                    .HasForeignKey(m => m.IdMedico)
-                    .HasConstraintName("FK_MedicoEspecialidadeMedico");
-
-                e.HasOne(es => es.Especialidade)
-                    .WithMany(em => em.EspecialidadeMedicos)
+                e.HasMany(m => m.Medicos)
+                    .WithOne(es => es.Especialidade)
                     .HasForeignKey(es => es.IdEspecialidade)
-                    .HasConstraintName("FK_EspecialidadeEspecialidadeMedico");
-                    
+                    .HasConstraintName("FK_EspecialidadeMedico");
+
             });
 
         }
