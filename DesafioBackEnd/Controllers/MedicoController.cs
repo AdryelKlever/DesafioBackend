@@ -48,7 +48,6 @@ namespace DesafioBackEnd.Controllers
                 });
         }
 
-
         [HttpPost]
         [ProducesResponseType(typeof(MedicoResponse), 200)]
         [ProducesResponseType(400)]

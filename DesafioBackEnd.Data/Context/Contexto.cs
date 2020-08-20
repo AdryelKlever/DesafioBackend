@@ -15,7 +15,6 @@ namespace DesafioBackEnd.Data.Context
         { }
 
         public DbSet<Medico> Medico { get; set; }
-        public DbSet<Especialidade> Especialidade { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -36,12 +35,9 @@ namespace DesafioBackEnd.Data.Context
                 e.Property(m => m.IdMedico).HasColumnName("IdMedico")
                     .ValueGeneratedOnAdd();
 
-                e.Property(m => m.IdEspecialidade).HasColumnName("IdEspecialidade")
-                    .IsRequired();
-
                 e.Property(m => m.NomeMedico).HasColumnName("NomeMedico")
                     .IsRequired()
-                    .HasMaxLength(150);
+                    .HasMaxLength(255);
 
                 e.Property(m => m.CPF).HasColumnName("CPF")
                     .IsRequired()
@@ -50,26 +46,11 @@ namespace DesafioBackEnd.Data.Context
                 e.Property(m => m.CRM).HasColumnName("CRM")
                     .IsRequired();
 
-            });
-
-            modelBuilder.Entity<Especialidade>(e =>
-            {
-                e.ToTable("Especialidade");
-                e.HasKey(es => es.IdEspecilidade).HasName("IdEspecialidade");
-                e.Property(es => es.IdEspecilidade).HasColumnName("IdEspecialidade")
-                    .ValueGeneratedOnAdd();
-
-                e.Property(es => es.NomeEspecialidade).HasColumnName("NomeEspecialidade")
+                e.Property(m => m.Especialidade).HasColumnName("Especialidade")
                     .IsRequired()
                     .HasMaxLength(150);
 
-                e.HasMany(m => m.Medicos)
-                    .WithOne(es => es.Especialidade)
-                    .HasForeignKey(es => es.IdEspecialidade)
-                    .HasConstraintName("FK_EspecialidadeMedico");
-
             });
-
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
