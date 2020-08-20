@@ -45,9 +45,6 @@ namespace DesafioBackEnd.Data.Migrations
                         .HasColumnType("nvarchar(150)")
                         .HasMaxLength(150);
 
-                    b.Property<int>("IdEspecialidade")
-                        .HasColumnType("int");
-
                     b.Property<string>("NomeMedico")
                         .IsRequired()
                         .HasColumnName("NomeMedico")

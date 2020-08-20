@@ -23,6 +23,9 @@ namespace DesafioBackEnd.Controllers
             this.contexto = contexto;
         }
 
+        [HttpGet]
+        public List<Medico> Get() => contexto.Medico.ToList();
+
         [HttpGet("especialidade")]
         [ProducesResponseType(typeof(MedicoResponse), 200)]
         public IActionResult GetEspecialidade(string nomeEspecialidade)
@@ -34,8 +37,11 @@ namespace DesafioBackEnd.Controllers
                 ? 404 :
                 200, new MedicoResponse
                 {
-                    IdMedico = medico == null ? medico.IdMedico
+                    IdMedico = medico == null ? -1
                     : medico.IdMedico,
+
+                    NomeMedico = medico == null ? "Médico com esse nome não foi encontrado!"
+                    : medico.NomeMedico,
 
                     CPF = medico == null ? "Médico com esse CPF não encontrado!" 
                     : medico.CPF,
