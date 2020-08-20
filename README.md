@@ -37,4 +37,4 @@ Projeto exemplo de utilização de Jwt feito por Adryel Klever: https://drive.go
 
 # Execução do Projeto
 - 1: Clone o repositório em sua maquina e abra-o no Visual Studio;
-- 2: Após abrir o projeto, entre na Class Contexto: DesafioBackEnd > Context > Contexto.cs e altere a string de conexão informando o nome do seu servidor, banco, usuário do servidor e a senha: Data Source=NomeDoServidor; Initial Catalog=NomeDoBanco; Integrated Security=False; User=NomeDoUsuario; Password=SenhaDoServidor
+- 2: Após abrir o projeto, entre na Class Contexto: DesafioBackEnd > Context > Contexto.cs e altere a string de conexão informando o nome do seu servidor, banco, usuário do servidor e a senha: Data Source=NomeDoServidor; Initial Catalog=NomeDoBanco; Integrated Security=False; User=NomeDoUsuario; Password=SenhaDoServidor. Faça a mesma coisa com o arquivo appsettings.json: DesafioBackEnd > appsettings.json;
