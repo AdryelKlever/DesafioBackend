@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 using DesafioBackEnd.Api.Request;
 using DesafioBackEnd.Api.Response;
@@ -11,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioBackEnd.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class MedicoController : ControllerBase
     {
@@ -22,6 +23,32 @@ namespace DesafioBackEnd.Controllers
             this.contexto = contexto;
         }
 
+        [HttpGet("especialidade")]
+        [ProducesResponseType(typeof(MedicoResponse), 200)]
+        public IActionResult GetEspecialidade(string nomeEspecialidade)
+        {
+            var medico = contexto.Medico.FirstOrDefault(
+                m => m.Especialidade == nomeEspecialidade);
+
+            return StatusCode(medico == null
+                ? 404 :
+                200, new MedicoResponse
+                {
+                    IdMedico = medico == null ? medico.IdMedico
+                    : medico.IdMedico,
+
+                    CPF = medico == null ? "Médico com esse CPF não encontrado!" 
+                    : medico.CPF,
+
+                    CRM = medico == null ? "Médico com esse CRM não encontrado!"
+                    : medico.CRM,
+
+                    Especialidade = medico == null ? "Médico com essa especialidade não encontrado!"
+                    : medico.Especialidade
+                });
+        }
+
+
         [HttpPost]
         [ProducesResponseType(typeof(MedicoResponse), 200)]
         [ProducesResponseType(400)]
@@ -31,6 +58,7 @@ namespace DesafioBackEnd.Controllers
             var medico = new Medico
             {
                 NomeMedico = medicoRequest.NomeMedico,
+                Especialidade = medicoRequest.Especialidade,
                 CPF = medicoRequest.CPF,
                 CRM = medicoRequest.CRM
             };
@@ -50,6 +78,7 @@ namespace DesafioBackEnd.Controllers
                 response.NomeMedico = medicoRetorno.NomeMedico;
                 response.CPF = medicoRetorno.CPF;
                 response.CRM = medicoRetorno.CRM;
+                response.Especialidade = medicoRetorno.Especialidade;
             }
 
             return StatusCode(200, response);

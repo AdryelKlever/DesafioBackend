@@ -11,6 +11,7 @@ namespace DesafioBackEnd.Api.Response
         public string NomeMedico { get; set; }
         public string CPF { get; set; }
         public string CRM { get; set; }
-        public string Role { get; set; }
+        public string Especialidade { get; set; }
+
     }
 }
