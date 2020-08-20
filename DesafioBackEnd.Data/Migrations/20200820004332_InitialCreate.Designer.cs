@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DesafioBackEnd.Data.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200820000706_InitialCreate")]
+    [Migration("20200820004332_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,9 +46,6 @@ namespace DesafioBackEnd.Data.Migrations
                         .HasColumnName("Especialidade")
                         .HasColumnType("nvarchar(150)")
                         .HasMaxLength(150);
-
-                    b.Property<int>("IdEspecialidade")
-                        .HasColumnType("int");
 
                     b.Property<string>("NomeMedico")
                         .IsRequired()

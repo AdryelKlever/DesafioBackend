@@ -12,7 +12,6 @@ namespace DesafioBackEnd.Data.Migrations
                 {
                     IdMedico = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdEspecialidade = table.Column<int>(nullable: false),
                     NomeMedico = table.Column<string>(maxLength: 255, nullable: false),
                     CPF = table.Column<string>(maxLength: 14, nullable: false),
                     CRM = table.Column<string>(nullable: false),
