@@ -19,22 +19,6 @@ Construir uma aplicação SAAS. A tarefa é construir uma aplicação SAAS. A ap
 Comandos para trabalhar com git:
 https://rogerdudler.github.io/git-guide/index.pt_BR.html
 
-# Diagrama Lógico Desafio Backend
-<img src="/img/DiagramaLogicoDesafioBackend.png"/>
-
-# Diagrama Físico Desafio Backend
-CREATE TABLE [Medico] (
-  [IdMedico] <type>,
-  [NomeMedico] <type>,
-  [CPF] <type>,
-  [CMR] <type>
-);
-
-CREATE TABLE [Especialidade] (
-  [IdEspecialidade] <type>,
-  [NomeEspecialidade] <type>
-);
-  
 # Instalação de lib's utilizadas
 Abra o terminal no Visual Studio indo em: Ferramentas > Gerenciador de Pacotes do NuGet > Gerenciar Pacotes do NuGet para a Solução... e cole os nomes abaixo na opção "Procurar":
 - Microsoft.EntityFrameworkCore
