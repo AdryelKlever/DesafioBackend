@@ -34,3 +34,6 @@ Artigo sobre ASP.NET Core - Autenticação e Autorização por balta.io:
 https://balta.io/blog/aspnet-core-autenticacao-autorizacao
 
 Projeto exemplo de utilização de Jwt feito por Adryel Klever: https://drive.google.com/file/d/1KXl7QC729iPYz9kOufCBct2g9N1vpxsL/view?usp=sharing
+
+# Execução do Projeto
+- 1.Clone o repositório em sua maquina e abra-o no Visual Studio
