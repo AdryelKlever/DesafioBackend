@@ -55,7 +55,7 @@ namespace DesafioBackEnd.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-8EOADS8; Initial Catalog=DesafioBackend; Integrated Security=False; User=sa; Password=1234");
+            optionsBuilder.UseSqlServer("Data Source=NomeDoServidor; Initial Catalog=NomeDoBanco; Integrated Security=False; User=NomeDoUsuario; Password=SenhaDoServidor");
         }
     }
 }
